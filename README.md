@@ -1,20 +1,20 @@
-#Aramodule
+# Aramodule
 
-##Install command:
+## Install command:
 npm install aramodule2 --save
 
 connecting and using mongodb
 
-###Setup
+### Setup
 const dsn = "mongodb://localhost:27017/test";
 const db  = require('aramodule').mongoInit(dsn, 'test');
 
 
-####Get data
+### Get data
 
 const data = await db.get();
 
-####Insert data
+### Insert data
 
 var ob = {
     username: "ara",
@@ -24,6 +24,6 @@ var ob = {
 await db.insert(ob);
 
 
-####Reset data
+### Reset data
 
 await db.reset();
