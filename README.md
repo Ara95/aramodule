@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Ara95/aramodule.svg?branch=master)](https://travis-ci.org/Ara95/aramodule)
+
 # Aramodule
 
 ## Install command:
