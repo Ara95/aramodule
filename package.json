@@ -1,0 +1,36 @@
+{
+  "name": "aramodule",
+  "version": "1.0.0",
+  "description": "Module for mongodb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aramodule"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha --exit test/**/*.js",
+    "report-coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "author": "Ara",
+  "license": "MIT",
+  "dependencies": {
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.36"
+  },
+  "devDependencies": {
+    "blanket": "^1.2.3",
+    "chai": "^4.1.2",
+    "codecov": "^3.0.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.10.0",
+    "eslint-plugin-jquery": "^1.2.1",
+    "eslint-plugin-pug": "^1.1.0",
+    "eslint-plugin-react": "^7.4.0",
+    "istanbul": "^0.4.5",
+    "javascript-style-guide": "^0.9.10",
+    "js-yaml": "^3.10.0",
+    "jsonlint": "^1.6.2",
+    "mocha": "^4.1.0",
+    "nyc": "^11.9.0",
+    "uglify-es": "^3.1.6"
+  }
+}
