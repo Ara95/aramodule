@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --exit test/**/*.js",
+    "test-scrutinizer": "nyc --all --reporter=text mocha test/**/*.js --exit",
     "report-coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "Ara",

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Ara95/aramodule.svg?branch=master)](https://travis-ci.org/Ara95/aramodule)
+[![Build Status](https://travis-ci.org/Ara95/aramodule.svg?branch=master)](https://travis-ci.org/Ara95/aramodule)[![BCH compliance](https://bettercodehub.com/edge/badge/Ara95/aramodule?branch=master)](https://bettercodehub.com/)
 
 # Aramodule
 
