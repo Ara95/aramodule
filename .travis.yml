@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+    - "node"
+    - "8"
+    - "7.6"
+
+sudo: false
+
+git:
+    submodules: false
+
+services:
+  - mongodb
+  
+after_success:
+    - npm run report-coveralls
